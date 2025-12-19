@@ -13,7 +13,7 @@ class db {
 
       request.onerror = (event) => {
         console.error(`Database error: ${event.target.error}`);
-        reject(`Database error: ${event.target.error}`);
+        reject(` error: ${event.target.error}`);
       };
 
       request.onsuccess = (event) => {
